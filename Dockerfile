@@ -1,6 +1,6 @@
 FROM nginx
 
-COPY webpage /usr/share/nginx/html
+COPY avana /usr/share/nginx/html
 
 COPY config/webapp.conf /etc/nginx/conf.d
 
